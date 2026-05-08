@@ -84,6 +84,8 @@ sudo python3 hackingtool.py
 
 > **Tip (personal):** Some tools in the menu won't work inside a VM without bridged networking enabled. Switch from NAT to Bridged Adapter in VirtualBox/VMware settings if wireless or network tools aren't detecting your interface.
 
+> **Tip (personal):** If you get a `ModuleNotFoundError` for `requests` or `colorama` even after running `install.py`, try `pip3 install -r requirements.txt` manually — sometimes the install script skips pip deps silently if a tool's git clone fails mid-way.
+
 ---
 
 ## 🐛 Bug Reports
@@ -106,16 +108,4 @@ Contributions are welcome! Please read the [Pull Request Template](.github/PULL_
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'feat: add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-#
+3. Commit your changes (`gi
