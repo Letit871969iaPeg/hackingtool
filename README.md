@@ -78,6 +78,8 @@ docker run -it hackingtool
 sudo python3 hackingtool.py
 ```
 
+> **Note (personal):** I've been running this on Ubuntu 22.04 — works fine without Kali. Just make sure `pip3` and `git` are up to date before running `install.py`.
+
 ---
 
 ## 🐛 Bug Reports
