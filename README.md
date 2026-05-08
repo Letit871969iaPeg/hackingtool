@@ -82,6 +82,8 @@ sudo python3 hackingtool.py
 
 > **Tip (personal):** If `install.py` fails partway through due to a missing apt package, running `sudo apt update && sudo apt install -f` first usually clears it up. Had this happen with `libssl-dev` on a fresh Ubuntu install.
 
+> **Tip (personal):** Some tools in the menu won't work inside a VM without bridged networking enabled. Switch from NAT to Bridged Adapter in VirtualBox/VMware settings if wireless or network tools aren't detecting your interface.
+
 ---
 
 ## 🐛 Bug Reports
@@ -116,7 +118,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 🙏 Credits
-
-- Original project by [Z4nzu](https://github.com/Z4nzu/hackingtool)
-- All tool authors and contributors
+#
