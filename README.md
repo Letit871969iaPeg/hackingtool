@@ -80,6 +80,8 @@ sudo python3 hackingtool.py
 
 > **Note (personal):** I've been running this on Ubuntu 22.04 — works fine without Kali. Just make sure `pip3` and `git` are up to date before running `install.py`.
 
+> **Tip (personal):** If `install.py` fails partway through due to a missing apt package, running `sudo apt update && sudo apt install -f` first usually clears it up. Had this happen with `libssl-dev` on a fresh Ubuntu install.
+
 ---
 
 ## 🐛 Bug Reports
