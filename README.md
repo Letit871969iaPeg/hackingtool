@@ -86,6 +86,8 @@ sudo python3 hackingtool.py
 
 > **Tip (personal):** If you get a `ModuleNotFoundError` for `requests` or `colorama` even after running `install.py`, try `pip3 install -r requirements.txt` manually — sometimes the install script skips pip deps silently if a tool's git clone fails mid-way.
 
+> **Tip (personal):** On Ubuntu 22.04+, if you hit a `externally-managed-environment` pip error, use `pip3 install --break-system-packages -r requirements.txt` or set up a virtualenv first with `python3 -m venv venv && source venv/bin/activate`.
+
 ---
 
 ## 🐛 Bug Reports
@@ -102,10 +104,4 @@ Want a new tool added? Use the [Tool Request](.github/ISSUE_TEMPLATE/tool_reques
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please read the [Pull Request Template](.github/PULL_REQUEST_TEMPLATE.md) before submitting a PR.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`gi
+## 🤝 Con
